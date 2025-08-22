@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_carousel_carousel_items",
+  "info": {
+    "displayName": "Carousel Item",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}

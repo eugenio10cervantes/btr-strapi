@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "properties",
+  "info": {
+    "singularName": "property",
+    "pluralName": "properties",
+    "displayName": "Property"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "RegularPrice": {
+      "type": "integer"
+    },
+    "SalePrice": {
+      "type": "integer"
+    },
+    "NumberOfBedrooms": {
+      "type": "integer"
+    },
+    "NumberOfBathrooms": {
+      "type": "integer"
+    },
+    "Area": {
+      "type": "integer"
+    },
+    "PromoTag": {
+      "type": "string"
+    },
+    "Gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "IsFractionalOwnershipProperty": {
+      "type": "boolean"
+    },
+    "FamiliesInvesting": {
+      "type": "integer"
+    },
+    "SpotsAvailable": {
+      "type": "integer"
+    },
+    "InterestRate": {
+      "type": "string"
+    },
+    "AnnualRateOfReturn": {
+      "type": "string"
+    },
+    "Percentage": {
+      "type": "decimal"
+    }
+  }
+}

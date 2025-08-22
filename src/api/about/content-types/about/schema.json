@@ -12,12 +12,25 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "Carousel": {
+      "type": "component",
+      "component": "carousel.carousel-item",
+      "repeatable": false
     },
-    "blocks": {
-      "type": "dynamiczone",
-      "components": ["shared.media", "shared.quote", "shared.rich-text", "shared.slider"]
+    "AboutText": {
+      "type": "richtext"
+    },
+    "TeamText": {
+      "type": "richtext"
+    },
+    "BlogText": {
+      "type": "richtext"
+    },
+    "MissionStatement": {
+      "type": "richtext"
+    },
+    "ResourcesText": {
+      "type": "richtext"
     }
   }
 }
