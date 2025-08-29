@@ -9,7 +9,7 @@ module.exports = () => ({
       apolloServer: {
         tracing: false,
         introspection: true,
-        playground: true,
+        playground: false,
       },
     },
   },
